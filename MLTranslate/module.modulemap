@@ -1,0 +1,30 @@
+framework module MLTranslate {
+    umbrella header  "MLTranslate.h"
+
+    header "MLKModelManager+Translate.h"
+    header "MLKTranslateLanguage.h"
+    header "MLKTranslateRemoteModel.h"
+    header "MLKTranslator.h"
+    header "MLKTranslatorOptions.h"
+    header "MLKCustomRemoteModel.h"
+    header "MLKLocalModel.h"
+    header "MLKModelDownloadConditions.h"
+    header "MLKModelDownloadNotifications.h"
+    header "MLKModelManager.h"
+    header "MLKRemoteModel.h"
+    header "MLKRemoteModelSource.h"
+    header "MLKIdentifiedLanguage.h"
+    header "MLKLanguageIdentification.h"
+    header "MLKLanguageIdentificationOptions.h"
+
+    export *
+                 link "c++"
+    link "z"
+    link framework "CoreFoundation"
+    link framework "CoreTelephony"
+    link framework "Foundation"
+    link framework "QuartzCore"
+    link framework "Security"
+    link framework "SystemConfiguration"
+    link framework "UIKit"
+}

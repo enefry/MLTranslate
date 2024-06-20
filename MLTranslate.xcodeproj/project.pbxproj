@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67DB14F1B5ED87B82DA9BA9E /* libPods-MLTranslate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 166A2DAD76E1DE17181060C6 /* libPods-MLTranslate.a */; };
+		9B8B263D2C22C888003A84D7 /* MLTranslate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8B263C2C22C888003A84D7 /* MLTranslate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8B266D2C22CC79003A84D7 /* MLKModelDownloadNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8B26602C22CC78003A84D7 /* MLKModelDownloadNotifications.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8B266E2C22CC79003A84D7 /* MLKModelManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8B26612C22CC78003A84D7 /* MLKModelManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8B266F2C22CC79003A84D7 /* MLKLocalModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8B26622C22CC78003A84D7 /* MLKLocalModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8B26702C22CC79003A84D7 /* MLKRemoteModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8B26632C22CC78003A84D7 /* MLKRemoteModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8B26712C22CC79003A84D7 /* MLKTranslator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8B26642C22CC78003A84D7 /* MLKTranslator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8B26722C22CC79003A84D7 /* MLKTranslateLanguage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8B26652C22CC78003A84D7 /* MLKTranslateLanguage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8B26732C22CC79003A84D7 /* MLKTranslateRemoteModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8B26662C22CC78003A84D7 /* MLKTranslateRemoteModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8B26742C22CC79003A84D7 /* MLKRemoteModelSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8B26672C22CC78003A84D7 /* MLKRemoteModelSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8B26752C22CC79003A84D7 /* MLKModelManager+Translate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8B26682C22CC78003A84D7 /* MLKModelManager+Translate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8B26762C22CC79003A84D7 /* MLKTranslatorOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8B26692C22CC78003A84D7 /* MLKTranslatorOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8B26782C22CC79003A84D7 /* MLKCustomRemoteModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8B266B2C22CC78003A84D7 /* MLKCustomRemoteModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8B26792C22CC79003A84D7 /* MLKModelDownloadConditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8B266C2C22CC79003A84D7 /* MLKModelDownloadConditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8B269D2C231341003A84D7 /* MLKLanguageIdentificationOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8B26992C231341003A84D7 /* MLKLanguageIdentificationOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8B269E2C231341003A84D7 /* MLKIdentifiedLanguage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8B269A2C231341003A84D7 /* MLKIdentifiedLanguage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8B26A02C231341003A84D7 /* MLKLanguageIdentification.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8B269C2C231341003A84D7 /* MLKLanguageIdentification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1598CF14E4750CDC0A68446D /* Pods-MLTranslate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLTranslate.debug.xcconfig"; path = "Target Support Files/Pods-MLTranslate/Pods-MLTranslate.debug.xcconfig"; sourceTree = "<group>"; };
+		166A2DAD76E1DE17181060C6 /* libPods-MLTranslate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MLTranslate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B8B26392C22C888003A84D7 /* MLTranslate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MLTranslate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B8B263C2C22C888003A84D7 /* MLTranslate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLTranslate.h; sourceTree = "<group>"; };
+		9B8B26602C22CC78003A84D7 /* MLKModelDownloadNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKModelDownloadNotifications.h; sourceTree = "<group>"; };
+		9B8B26612C22CC78003A84D7 /* MLKModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKModelManager.h; sourceTree = "<group>"; };
+		9B8B26622C22CC78003A84D7 /* MLKLocalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKLocalModel.h; sourceTree = "<group>"; };
+		9B8B26632C22CC78003A84D7 /* MLKRemoteModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKRemoteModel.h; sourceTree = "<group>"; };
+		9B8B26642C22CC78003A84D7 /* MLKTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKTranslator.h; sourceTree = "<group>"; };
+		9B8B26652C22CC78003A84D7 /* MLKTranslateLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKTranslateLanguage.h; sourceTree = "<group>"; };
+		9B8B26662C22CC78003A84D7 /* MLKTranslateRemoteModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKTranslateRemoteModel.h; sourceTree = "<group>"; };
+		9B8B26672C22CC78003A84D7 /* MLKRemoteModelSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKRemoteModelSource.h; sourceTree = "<group>"; };
+		9B8B26682C22CC78003A84D7 /* MLKModelManager+Translate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MLKModelManager+Translate.h"; sourceTree = "<group>"; };
+		9B8B26692C22CC78003A84D7 /* MLKTranslatorOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKTranslatorOptions.h; sourceTree = "<group>"; };
+		9B8B266B2C22CC78003A84D7 /* MLKCustomRemoteModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKCustomRemoteModel.h; sourceTree = "<group>"; };
+		9B8B266C2C22CC79003A84D7 /* MLKModelDownloadConditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKModelDownloadConditions.h; sourceTree = "<group>"; };
+		9B8B267A2C22CD4E003A84D7 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		9B8B26992C231341003A84D7 /* MLKLanguageIdentificationOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKLanguageIdentificationOptions.h; sourceTree = "<group>"; };
+		9B8B269A2C231341003A84D7 /* MLKIdentifiedLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKIdentifiedLanguage.h; sourceTree = "<group>"; };
+		9B8B269C2C231341003A84D7 /* MLKLanguageIdentification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKLanguageIdentification.h; sourceTree = "<group>"; };
+		F5FCB4B3A9BE9F7FBF2F4B63 /* Pods-MLTranslate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLTranslate.release.xcconfig"; path = "Target Support Files/Pods-MLTranslate/Pods-MLTranslate.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B8B26362C22C888003A84D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67DB14F1B5ED87B82DA9BA9E /* libPods-MLTranslate.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9522CB7C3B3641380109AF37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1598CF14E4750CDC0A68446D /* Pods-MLTranslate.debug.xcconfig */,
+				F5FCB4B3A9BE9F7FBF2F4B63 /* Pods-MLTranslate.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B8B262F2C22C888003A84D7 = {
+			isa = PBXGroup;
+			children = (
+				9B8B263B2C22C888003A84D7 /* MLTranslate */,
+				9B8B263A2C22C888003A84D7 /* Products */,
+				9522CB7C3B3641380109AF37 /* Pods */,
+				9EDA068CE13F4127C2AE399A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B8B263A2C22C888003A84D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B8B26392C22C888003A84D7 /* MLTranslate.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B8B263B2C22C888003A84D7 /* MLTranslate */ = {
+			isa = PBXGroup;
+			children = (
+				9B8B267A2C22CD4E003A84D7 /* module.modulemap */,
+				9B8B263C2C22C888003A84D7 /* MLTranslate.h */,
+				9B8B266B2C22CC78003A84D7 /* MLKCustomRemoteModel.h */,
+				9B8B26622C22CC78003A84D7 /* MLKLocalModel.h */,
+				9B8B266C2C22CC79003A84D7 /* MLKModelDownloadConditions.h */,
+				9B8B26602C22CC78003A84D7 /* MLKModelDownloadNotifications.h */,
+				9B8B26612C22CC78003A84D7 /* MLKModelManager.h */,
+				9B8B26682C22CC78003A84D7 /* MLKModelManager+Translate.h */,
+				9B8B26632C22CC78003A84D7 /* MLKRemoteModel.h */,
+				9B8B26672C22CC78003A84D7 /* MLKRemoteModelSource.h */,
+				9B8B26652C22CC78003A84D7 /* MLKTranslateLanguage.h */,
+				9B8B26662C22CC78003A84D7 /* MLKTranslateRemoteModel.h */,
+				9B8B26642C22CC78003A84D7 /* MLKTranslator.h */,
+				9B8B26692C22CC78003A84D7 /* MLKTranslatorOptions.h */,
+				9B8B269A2C231341003A84D7 /* MLKIdentifiedLanguage.h */,
+				9B8B269C2C231341003A84D7 /* MLKLanguageIdentification.h */,
+				9B8B26992C231341003A84D7 /* MLKLanguageIdentificationOptions.h */,
+			);
+			path = MLTranslate;
+			sourceTree = "<group>";
+		};
+		9EDA068CE13F4127C2AE399A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				166A2DAD76E1DE17181060C6 /* libPods-MLTranslate.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9B8B26342C22C888003A84D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8B26722C22CC79003A84D7 /* MLKTranslateLanguage.h in Headers */,
+				9B8B26742C22CC79003A84D7 /* MLKRemoteModelSource.h in Headers */,
+				9B8B26762C22CC79003A84D7 /* MLKTranslatorOptions.h in Headers */,
+				9B8B266E2C22CC79003A84D7 /* MLKModelManager.h in Headers */,
+				9B8B26792C22CC79003A84D7 /* MLKModelDownloadConditions.h in Headers */,
+				9B8B26712C22CC79003A84D7 /* MLKTranslator.h in Headers */,
+				9B8B26752C22CC79003A84D7 /* MLKModelManager+Translate.h in Headers */,
+				9B8B26702C22CC79003A84D7 /* MLKRemoteModel.h in Headers */,
+				9B8B269E2C231341003A84D7 /* MLKIdentifiedLanguage.h in Headers */,
+				9B8B269D2C231341003A84D7 /* MLKLanguageIdentificationOptions.h in Headers */,
+				9B8B266F2C22CC79003A84D7 /* MLKLocalModel.h in Headers */,
+				9B8B266D2C22CC79003A84D7 /* MLKModelDownloadNotifications.h in Headers */,
+				9B8B26A02C231341003A84D7 /* MLKLanguageIdentification.h in Headers */,
+				9B8B26782C22CC79003A84D7 /* MLKCustomRemoteModel.h in Headers */,
+				9B8B26732C22CC79003A84D7 /* MLKTranslateRemoteModel.h in Headers */,
+				9B8B263D2C22C888003A84D7 /* MLTranslate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9B8B26382C22C888003A84D7 /* MLTranslate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B8B26402C22C888003A84D7 /* Build configuration list for PBXNativeTarget "MLTranslate" */;
+			buildPhases = (
+				CA0742EF79BD9C840C976419 /* [CP] Check Pods Manifest.lock */,
+				9B8B26342C22C888003A84D7 /* Headers */,
+				9B8B26352C22C888003A84D7 /* Sources */,
+				9B8B26362C22C888003A84D7 /* Frameworks */,
+				9B8B26372C22C888003A84D7 /* Resources */,
+				0CDFECFAB48F66CEFED878EF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLTranslate;
+			productName = MLTranslate;
+			productReference = 9B8B26392C22C888003A84D7 /* MLTranslate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B8B26302C22C888003A84D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					9B8B26382C22C888003A84D7 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 9B8B26332C22C888003A84D7 /* Build configuration list for PBXProject "MLTranslate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B8B262F2C22C888003A84D7;
+			productRefGroup = 9B8B263A2C22C888003A84D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B8B26382C22C888003A84D7 /* MLTranslate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B8B26372C22C888003A84D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CDFECFAB48F66CEFED878EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MLTranslate/Pods-MLTranslate-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MLTranslate/Pods-MLTranslate-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MLTranslate/Pods-MLTranslate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA0742EF79BD9C840C976419 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MLTranslate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B8B26352C22C888003A84D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9B8B263E2C22C888003A84D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B8B263F2C22C888003A84D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B8B26412C22C888003A84D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1598CF14E4750CDC0A68446D /* Pods-MLTranslate.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 34PEP7YC95;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_FILE = MLTranslate/module.modulemap;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = win.tools4me.translate.MLTranslate;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B8B26422C22C888003A84D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5FCB4B3A9BE9F7FBF2F4B63 /* Pods-MLTranslate.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 34PEP7YC95;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_FILE = MLTranslate/module.modulemap;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = win.tools4me.translate.MLTranslate;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B8B26332C22C888003A84D7 /* Build configuration list for PBXProject "MLTranslate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8B263E2C22C888003A84D7 /* Debug */,
+				9B8B263F2C22C888003A84D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B8B26402C22C888003A84D7 /* Build configuration list for PBXNativeTarget "MLTranslate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8B26412C22C888003A84D7 /* Debug */,
+				9B8B26422C22C888003A84D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B8B26302C22C888003A84D7 /* Project object */;
+}
